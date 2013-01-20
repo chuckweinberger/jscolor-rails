@@ -21,6 +21,14 @@ Or install it yourself as:
 Add the following to any JavaScript file:
 
     //= require jscolor
+    
+### Asset path
+
+One tweak has been applied to jscolor.js. `jscolor.dir`'s default value has been changed to `'/assets/'` because jscolor's auto-detect fails in production mode. To change the default, do the following:
+
+````javascript
+jscolor.dir = '/path/to/assets/';
+````
 
 ## Versioning
 
